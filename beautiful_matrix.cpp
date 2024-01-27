@@ -1,26 +1,31 @@
 #include<iostream>
 using namespace std;
+
 int main(){
-    int x;
-    int y;
+    int x, y;
     int n[5][5];
-    for(int j=0;j<=4;j++){
-        for(int i=0; i<=4; i++){
-            cin>>n[j][i];
-            if(n[i][j]==1){
-            x = i;
-            y = j;
-            }           
-        }   
+
+    for(int j = 0; j < 5; j++){
+        for(int i = 0; i < 5; i++){
+            cin >> n[j][i];
+            if(n[j][i] == 1){
+                x = i;
+                y = j;
+                break;
+            }
+        }
     }
-    int z=2-x;
-    int u=2-y;
-    if (z<0){
-        z=z*(-1);
+
+    x = 2 - x;
+    y = 2 - y;
+    if (x < 0){
+        x = -x;
     }
-    if(u<0){
-            u=u*(-1);
+    if(y < 0){
+        y = -y;
     }    
-    cout<<z+u;
+
+    cout << x + y;
+
     return 0;
 }
