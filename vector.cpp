@@ -10,8 +10,9 @@ int main(){
         cin>>v[i];
     }
     for(int k=0 ; k<3 ; k++){
-        cout<<v[k]<<endl;
+        cout<<v[k]<<endl;       //prints vector elements
     }
+    
     cout<<x;
     return 0;
 }
