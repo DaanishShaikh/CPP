@@ -12,7 +12,8 @@ int main(){
     for(int k=0 ; k<3 ; k++){
         cout<<v[k]<<endl;       //prints vector elements
     }
+    int l=v.size();
+    cout<<l;
     
-    cout<<x;
     return 0;
 }
