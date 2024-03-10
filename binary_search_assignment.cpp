@@ -20,12 +20,12 @@ using namespace std;
 //         }
 //     }
 //  }
- int upperbound(vector<int>v,int x){
-    int upper=v.size()-1, lower=0, mid=(upper+lower)/2;
-    while(upper>=lower){
-        if(upper==lower+1){
-            return v[upper];
-        }
+//  int upperbound(vector<int>v,int x){
+//     int upper=v.size()-1, lower=0, mid=(upper+lower)/2;
+//     while(upper>=lower){
+//         if(upper==lower+1){
+//             return v[upper];
+//         }
         else if(x==v[mid]){
             return v[mid+1];
             break;
