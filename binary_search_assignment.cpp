@@ -76,16 +76,16 @@ using namespace std;
     // for(int i=0 ; i<n ; i++){
     //     cin>>v[i];
     // }
-    int x;
-    cin>>x;
-    sort(v.begin(),v.end());
-    cout<<lowerbound(v,x)<<endl;
-    cout<<upperbound(v,x)<<endl;
-    if(ispresent(v,x)){
-        cout<<"true"<<endl;
-    } else {
-        cout<<"false"<<endl;
-    }
+//     int x;
+//     cin>>x;
+//     sort(v.begin(),v.end());
+//     cout<<lowerbound(v,x)<<endl;
+//     cout<<upperbound(v,x)<<endl;
+//     if(ispresent(v,x)){
+//         cout<<"true"<<endl;
+//     } else {
+//         cout<<"false"<<endl;
+//     }
    
-    return 0;
- }
+//     return 0;
+//  }
