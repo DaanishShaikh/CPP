@@ -10,16 +10,16 @@ using namespace std;
 //             return v[mid+1];
 //             break;
 //         }
-        else if(x>v[mid]){
-            lower=mid;
-            mid=(upper+lower)/2;
-        }
-        else if(x<v[mid]){
-            upper=mid;
-            mid=(upper+lower)/2;
-        }
-    }
- }
+//         else if(x>v[mid]){
+//             lower=mid;
+//             mid=(upper+lower)/2;
+//         }
+//         else if(x<v[mid]){
+//             upper=mid;
+//             mid=(upper+lower)/2;
+//         }
+//     }
+//  }
  int upperbound(vector<int>v,int x){
     int upper=v.size()-1, lower=0, mid=(upper+lower)/2;
     while(upper>=lower){
