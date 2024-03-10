@@ -40,13 +40,13 @@ using namespace std;
 //         }
 //     }
 //  }
- int ispresent(vector<int>v,int x){
-    int upper=v.size()-1, lower=0, mid=(upper+lower)/2;
-    while(upper>=lower){
-        if(upper==lower+1){
-            if(upper==x||lower==x){
-            return true;
-            }
+//  int ispresent(vector<int>v,int x){
+//     int upper=v.size()-1, lower=0, mid=(upper+lower)/2;
+//     while(upper>=lower){
+//         if(upper==lower+1){
+//             if(upper==x||lower==x){
+//             return true;
+//             }
             else{
                 return false;
             }
