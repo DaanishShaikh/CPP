@@ -26,14 +26,14 @@ using namespace std;
 //         if(upper==lower+1){
 //             return v[upper];
 //         }
-        else if(x==v[mid]){
-            return v[mid+1];
-            break;
-        }
-        else if(x>v[mid]){
-            lower=mid;
-            mid=(upper+lower)/2;
-        }
+        // else if(x==v[mid]){
+        //     return v[mid+1];
+        //     break;
+        // }
+        // else if(x>v[mid]){
+        //     lower=mid;
+        //     mid=(upper+lower)/2;
+        // }
         else if(x<v[mid]){
             upper=mid;
             mid=(upper+lower)/2;
