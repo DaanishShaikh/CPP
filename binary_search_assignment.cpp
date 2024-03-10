@@ -55,18 +55,18 @@ using namespace std;
         //     return true;
         //     break;
         // }
-        else if(x>v[mid]){
-            lower=mid;
-            mid=(upper+lower)/2;
-        }
-        else if(x<v[mid]){
-            upper=mid;
-            mid=(upper+lower)/2;
-        } else{
-            return false;
-        }
-    }
- }
+//         else if(x>v[mid]){
+//             lower=mid;
+//             mid=(upper+lower)/2;
+//         }
+//         else if(x<v[mid]){
+//             upper=mid;
+//             mid=(upper+lower)/2;
+//         } else{
+//             return false;
+//         }
+//     }
+//  }
  
  
  int main(){
