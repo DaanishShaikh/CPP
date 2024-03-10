@@ -47,14 +47,14 @@ using namespace std;
 //             if(upper==x||lower==x){
 //             return true;
 //             }
-            else{
-                return false;
-            }
-        }
-        else if(x==v[mid]){
-            return true;
-            break;
-        }
+        //     else{
+        //         return false;
+        //     }
+        // }
+        // else if(x==v[mid]){
+        //     return true;
+        //     break;
+        // }
         else if(x>v[mid]){
             lower=mid;
             mid=(upper+lower)/2;
