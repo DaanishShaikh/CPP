@@ -34,12 +34,12 @@ using namespace std;
         //     lower=mid;
         //     mid=(upper+lower)/2;
         // }
-        else if(x<v[mid]){
-            upper=mid;
-            mid=(upper+lower)/2;
-        }
-    }
- }
+//         else if(x<v[mid]){
+//             upper=mid;
+//             mid=(upper+lower)/2;
+//         }
+//     }
+//  }
  int ispresent(vector<int>v,int x){
     int upper=v.size()-1, lower=0, mid=(upper+lower)/2;
     while(upper>=lower){
