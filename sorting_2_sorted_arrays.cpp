@@ -64,6 +64,23 @@ int main(){
             }
         }
     }
+    if(m==n){
+        for(int i=0 ; i<2*m&&j<n&&k<m ; i+=2){
+         if(a[j]>=b[k]){
+             c[i]=b[k];
+             c[i+1]=a[j];
+             j++;
+             k++;
+         }
+         else if(a[j]<=b[k]){
+             c[i]=a[j];
+             c[i+1]=b[k];
+             j++;
+             k++;
+         }
+         
+     }
+    }
     for(int i=0 ; i<n+m ; i++){
         cout<<c[i]<<' ';
     }
