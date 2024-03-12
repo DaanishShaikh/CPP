@@ -52,4 +52,8 @@ int main(){
                     break;
                 }
             }
-            
+            if(count2==max1){
+                mode=temp[j];
+                break;
+            }
+        }
