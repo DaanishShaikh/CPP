@@ -24,4 +24,6 @@ int main(){
         int max1=0,max2=0;
         set<pair<int, int>> setpair;
         int k=0;
-        
+        for(int j=0 ; j<temp.size() ; j++){
+            int count2=0;
+            
