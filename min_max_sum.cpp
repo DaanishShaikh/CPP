@@ -26,4 +26,18 @@ int main(){
         int k=0;
         for(int j=0 ; j<temp.size() ; j++){
             int count2=0;
+            for(int ij=j+1; ij<temp.size() ; ij++){
+                
+                if(temp[j]==temp[ij]){
+                    count2++;
+                    
+                } else {
+                    j=ij;
+                    break;
+                }
+            }
+            max1=max(count2,max1);
+        }
+        for(int j=0 ; j<temp.size() ; j++){
+            int count2=0;
             
