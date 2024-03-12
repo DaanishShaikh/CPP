@@ -59,4 +59,5 @@ int main(){
         }
 
         mini=temp[0];
+        maxi=temp[temp.size()-1];
         
