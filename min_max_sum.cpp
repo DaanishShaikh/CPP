@@ -57,3 +57,6 @@ int main(){
                 break;
             }
         }
+
+        mini=temp[0];
+        
