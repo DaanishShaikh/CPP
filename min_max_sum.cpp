@@ -9,4 +9,6 @@ int main(){
     }
     vector<int>temp;
     
+    for(int i=0 ; i<n ; i++){
+        int sum=0;
     
