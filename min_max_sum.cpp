@@ -44,4 +44,12 @@ int main(){
                 if(temp[j]==temp[ij]){
                     count2++;
                     
-                
+                } else {
+                    j=ij;
+                    break;
+                }
+                if(count2==max1){
+                    break;
+                }
+            }
+            
