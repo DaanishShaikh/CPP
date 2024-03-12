@@ -61,4 +61,7 @@ int main(){
         mini=temp[0];
         maxi=temp[temp.size()-1];
         cout<<"min, max, sum, average and mode after addition of "<<v[i]<<" is "<<mini<<", "<<maxi<<", "<<sum<<", "<<avg<<", "<<mode<<endl;
+    }
     
+    return 0;
+}
