@@ -20,4 +20,8 @@ int main(){
             count++;
         }
         avg=sum/count;
+        sort(temp.begin(), temp.end());
+        int max1=0,max2=0;
+        set<pair<int, int>> setpair;
+        int k=0;
         
