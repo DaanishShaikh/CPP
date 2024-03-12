@@ -40,4 +40,8 @@ int main(){
         }
         for(int j=0 ; j<temp.size() ; j++){
             int count2=0;
-            
+            for(int ij=j+1; ij<temp.size() ; ij++){
+                if(temp[j]==temp[ij]){
+                    count2++;
+                    
+                
