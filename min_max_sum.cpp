@@ -11,4 +11,13 @@ int main(){
     
     for(int i=0 ; i<n ; i++){
         int sum=0;
-    
+    float mini=0 , maxi=0, count=0;
+    float avg=0;
+    int mode=0;
+        temp.push_back(v[i]);
+        for(int j=0 ; j<temp.size() ; j++){
+            sum+=temp[j];
+            count++;
+        }
+        avg=sum/count;
+        
