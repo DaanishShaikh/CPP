@@ -19,4 +19,5 @@ int main() {
     cout<<pow(a,b); 
     }
        
-    
+    return 0;
+}
