@@ -10,4 +10,7 @@ int main() {
     if (a == b) {
         cout << c << "\n";
     }
-    
+    else if (a == c) {
+        cout << b << "\n";
+    }
+   
