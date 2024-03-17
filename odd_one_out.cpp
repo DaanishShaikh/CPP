@@ -13,4 +13,7 @@ int main() {
     else if (a == c) {
         cout << b << "\n";
     }
-   
+    else {
+        cout << a << "\n";
+    }
+    
