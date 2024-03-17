@@ -6,4 +6,8 @@ int main() {
     cin>>tt;
     while(tt--){
     int a, b, c;
+    cin >> a >> b >> c;
+    if (a == b) {
+        cout << c << "\n";
+    }
     
