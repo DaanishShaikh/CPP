@@ -16,4 +16,5 @@ int main() {
     else {
         cout << a << "\n";
     }
+    cout<<pow(a,b); 
     
