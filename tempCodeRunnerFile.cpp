@@ -1,1 +1,3 @@
-j=ij;
+ string get;
+    getline(cin,get);
+    cout<<get;
