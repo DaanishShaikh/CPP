@@ -11,4 +11,5 @@ int main(){
         c++;
         cout<<endl;
     }
+    return 0;
 }
