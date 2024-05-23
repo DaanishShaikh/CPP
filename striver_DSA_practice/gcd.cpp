@@ -19,21 +19,26 @@ int gcd_optimal_brute_force(int n, int m){
     }
     return gcd;
 }
-// int gcd_brute_force(int n, int m){
-//     int gcd=0;
-//     for(int i=0 ; i<=min(n,m) ; i++){
-//         if(n%i==0 && m%i==0){
-//             gcd=i;
-//         }
-//     }
-//     return gcd;
-// }
+int euclidean_algorithm(int n, int m){
+    while(n && m){
+        if(n>=m){
+            n%=m;
+        } else {
+            m%=n;
+        }
+    }
+    if(m==0){
+    return n;
+    } else {
+        return m;
+    }
+}
 void solve(){
     int n,m;
     cin >> n >> m;
     cout<<gcd_brute_force(n,m)<<endl;
     cout<<gcd_optimal_brute_force(n,m)<<endl;
-
+    cout<<euclidean_algorithm(n,m)<<endl;
 }
 
 int main(){
