@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int n;
     cin >> n;
-    vector<int>ans;
+    vector<long long>ans;
     for(int i=1 ; i*i<=n ; i++){
         if(n%i==0){
             if(i==n/i){
